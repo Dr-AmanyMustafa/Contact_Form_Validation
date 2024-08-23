@@ -1,0 +1,166 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 250px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  gap: 10px
+}
+.contact{
+  color: #283936;
+}
+.title{
+  display: flex;
+  gap: 30px;
+  color:#404646;  
+}
+.astrik{
+  color: blue;
+  margin-left: 10px;
+}
+.rule_astrik{
+  color: blue;
+  margin-left: 10px;
+}
+.name{
+  display: flex;
+  width: 100%;
+}
+.name-field{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 10px;
+}
+.fname{
+  display: flex;
+  width: 50%;
+}
+.name_input{
+  height: 30px;
+  border-radius: 7px;
+  margin: 7px 0;
+}
+.input_error{
+  height: 30px;
+  border-radius: 7px;
+  border: 2px hsl(0, 66%, 54%) solid;
+  margin: 7px 0;
+}
+.email-field{
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.query-field{
+  display: flex;
+}
+.Enquiry-field{
+  border: 1px #283936 solid;
+  border-radius: 5px;
+  width: 60%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+.query-input{
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 18px;
+  gap: 10px;
+}
+.msg_input{
+  height: 70px;
+  border-radius: 7px;
+  margin: 8px 0;
+}
+.input_msg_error{
+  height: 70px;
+  border-radius: 7px;
+  border: 2px hsl(0, 66%, 54%) solid;
+  margin: 8px 0;
+}
+.rule{
+  margin-top: 15px;
+}
+.submit_btn{
+  width: 98%;
+  height: 40px;
+  background-color: #0C7D69;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.error{
+  color: hsl(0, 66%, 54%);
+}
+.query_error{
+  color: hsl(0, 66%, 54%);
+}
+.success_msg{
+  background-color: #2A4244;
+  color: white;
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.success_header{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.tick{
+  width: 5%;
+}
+
+@media screen and (max-width: 1059px){
+  .container{
+    margin: 10px 0;
+  }
+  .name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .query-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .Enquiry-field{
+    margin-bottom: 0px;
+    width: 98%;
+  }
+  .query_error{
+    position: relative;
+    top: 40px;
+  }
+  .msg_input{
+    height: 140px;
+  }
+  .rule{
+    display: flex;
+    width: 240px;
+    gap: 5px;
+  }
+  .rule_astrik{
+    position: relative;
+    left: -120px;
+    margin-top: 20px;
+  }
+}
