@@ -1,5 +1,6 @@
 import * as yup from 'yup'
 import { useState } from 'react';
+import tick from '../public/icon-success-check.svg';
 import './App.css'
 
 
@@ -75,7 +76,7 @@ async function testValidation(){
       {success && 
       <container className='success_msg'>
         <div className='success_header'>
-        <img src="/public/icon-success-check.svg" alt="tick" className='tick' />
+        <img src={tick} alt="tick" className='tick' />
         {success}
         </div>
         <span>Thanks for completing the form. We'll be in touch soon!</span>
